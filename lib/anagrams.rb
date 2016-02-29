@@ -12,9 +12,9 @@ def anagrams?(str1, str2)
 
 	if check_str1 == check_str2
 	#check if letters of each word, once sorted into alphabetical order, are equal to each other
-		puts "true"
+		return true
 	else
-		puts "false"
+	    return false
 	end
 end
 
